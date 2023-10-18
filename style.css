@@ -1,0 +1,47 @@
+/* reset de css tira tudo que é por padrão do navegador. */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* para adicionar a imagem */
+  /* background-image: url(./assets/assets/bg-mobile.jpg); 
+
+  para não repetir a imagem
+  background-repeat: no-repeat;
+  
+  top para o eixo X e center para o eixo Y
+  background-position: top center;
+
+  Cover para preencher todo espaço visivel.
+  background-size: cover; */
+
+  /* atalho para todas as propriedades */
+  background: url(./assets/assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body * {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff
+}
+
+#container {
+  width: 588px;
+  border: 1px solid red;
+  margin: 56px auto 0px;
+}
+#profile{
+  text-align: center;
+}
+
+#profile img {
+  width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
+
+}
